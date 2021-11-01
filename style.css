@@ -1,0 +1,56 @@
+body {
+    padding: 3%;
+    border: 5%;
+    background-color:#304D6D;
+}
+
+.nome{
+    text-align: center;
+    font-family: cursive;
+}
+ 
+.foto{
+    border: 10px;
+    z-index: 2;
+    position: absolute;
+    margin: 20px;
+    padding: 25px;
+    background-color: #82a0bc;
+}
+
+.desc{
+    padding: 10px;
+    z-index: 2;
+    border: 10px;
+    margin: 2px;
+    top: 320px;
+    position: absolute;
+    left: 400px;
+    max-width: 500px;
+    font-family: fantasy;
+    color: #A7CCED;
+    text-align: center;
+    line-height: 30px;
+}
+
+.comp{
+    position: absolute;
+    top: 700px;
+    z-index: 1;
+}
+
+.geral {
+    position: absolute;
+    top: 650px;
+}
+
+ul li:nth-child(odd){
+    background-color: #a7cced;
+}
+
+
+.first {font-size: 25px;}
+
+.second {font-size: 20px;}
+
+.third {font-size: 15px;}
