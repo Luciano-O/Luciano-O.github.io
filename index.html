@@ -2,21 +2,12 @@
 <html lang="pt-br">
     <head>
         <title>Meu portfolio</title> 
-        <style>
-            body {background-color:#304D6D;}
-            h1 {font-family: cursive;}
-            #desc {font-family: fantasy;
-            color: #A7CCED;
-            text-align: center;
-            line-height: 30px;
-            }
-            .first {font-size: 25px;}
-            .second {font-size: 20px;}
-            .third {font-size: 15px;}
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Luciano Oliveira Gomes</h1>
+        <div class="nome">
+            <h1>Luciano Oliveira Gomes</h1>
+        </div>
         <h2>Índice</h2>
         <ol>
             <li><a href="#foto">Minha foto</a></li>
@@ -24,15 +15,23 @@
             <li><a href="#comp">Minhas Principais competencias</a></li>
             <li><a href="#site">Meu site favorito</a></li>
         </ol>
-        <img id="foto" src="Luciano.jpeg" alt="Uma selfie minha, descontraída" width="300px" >
-        <p id="desc">Brasileiro, nascido, criado e ainda residente de Sāo Paulo-SP<br><strong>Um cara bem humorado, de facil relacionamento e convivencia, que curte jogos e ama tecnologia.</strong><br>
-            <em>Sempre trabalhei na area de tecnologia e hoje me vejo muito animado com a oportunidade de estudar desenvolvimento web na Trybe.</em></p>
-        <ul id="comp">
+        <div class="ndesc">
+            <div class="foto">
+                <img id="foto" src="Luciano.jpeg" alt="Uma selfie minha, descontraída" width="300px" >
+            </div>
+            <div class="desc">
+                <p>Brasileiro, nascido, criado e ainda residente de Sāo Paulo-SP<br><strong>Um cara bem humorado, de facil relacionamento e convivencia, que curte jogos e ama tecnologia.</strong><br>
+                <em>Sempre trabalhei na area de tecnologia e hoje me vejo muito animado com a oportunidade de estudar desenvolvimento web na Trybe.</em></p>
+            </div>
+        </div>
+        <ul class="comp">
             <li class="first"><strong>Facil aprendizado</strong></li>
             <li class="second">Bons relacionamentos</li>
             <li class="third">Foco e ambiçāo</li>
         </ul>
-        <a href="#foto">Minha foto</a><br>
-        <a id="site" href="https://betrybe.com" target="_blank">Aonde eu tenho passado a maior parte do meu tempo</a>
-    </body>
+        <div class="geral">
+            <a href="#foto">Minha foto</a><br>
+            <a id="site" href="https://betrybe.com" target="_blank">Aonde eu tenho passado a maior parte do meu tempo</a>
+        </div>
+        </body>
 </html>
